@@ -1,4 +1,4 @@
 # Contributors
 
-[Jinna Balu](https://github.com/JinnaBalu)
-[Igor Gavelyuk](https://github.com/igavelyuk)
+[Jinna Balu](https://github.com/JinnaBalu)  
+[Igor Gavelyuk](https://github.com/igavelyuk)  

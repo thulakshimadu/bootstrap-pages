@@ -22,7 +22,7 @@ Thank you for contributing to JinnaBalu/bootstrap-pages! We thrilled to have dev
   *  Create a page, discover a bug or feature you wish to resolve - the file will live in `/Resources`.
   * Fix, create a new page or feature.
 
-### Creating a Page
+### Take over tasks
 This is THE most important step. For each issue you resolve, you must create one for someone else to work on!
   * Come up with a feature that you would like to see implemented into the project.
   * Create a new folder in '/Resource' name as you like it 'Azure Login' for example
@@ -38,7 +38,7 @@ Now that we have claimed an issue, resolved that issue, and/or created a page or
 
 ```
     Closes #theRelatedIssueNumber
-  - [x] Some text like Page whatever created
+  - [x] Some text like Page or File created
   - [x] new issue opened, with that feature like to have
 ```
 

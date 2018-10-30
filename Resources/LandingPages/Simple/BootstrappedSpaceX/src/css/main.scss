@@ -1,0 +1,31 @@
+$base-color: #142A4F;
+$second-color: #A5BEC2;
+$links-color: #0C121E;
+$img-border-color:#F8F9FA;
+
+body{
+  background-color: $second-color;
+  h1{
+    color: $base-color;
+  }
+  a{
+    color: $links-color;
+  }
+  nav{
+    a{
+      img{
+        height: 50px;
+        width: 50px;
+      }
+    }
+  }
+  header{
+    height: 600px;
+    width:auto;
+    background-color:$img-border-color;
+    background-image: url("/img/cover.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+}

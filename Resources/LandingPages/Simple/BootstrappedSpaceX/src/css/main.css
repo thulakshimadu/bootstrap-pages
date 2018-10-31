@@ -1,16 +1,48 @@
 body {
   background-color: #A5BEC2; }
+  body .leftspacer {
+    border-color: green;
+    border-bottom: solid 100px #A5BEC2;
+    border-right: solid 683px #A5BEC2;
+    border-left: solid 683px transparent;
+    border-top: solid 100px transparent;
+    background-color: red; }
+  body .rightspacer {
+    border-color: green;
+    border-bottom: solid 100px transparent;
+    border-right: solid 683px transparent;
+    border-left: solid 683px #A5BEC2;
+    border-top: solid 100px #A5BEC2;
+    background-color: red; }
+  body .mblue {
+    background-color: #142A4F; }
+  body .red {
+    background-color: red; }
+  body .hundred {
+    padding-top: 50px;
+    height: 100px; }
   body h1 {
-    color: #142A4F; }
+    color: #A5BEC2; }
   body a {
     color: #0C121E; }
   body nav a img {
     height: 50px;
     width: 50px; }
   body header {
+    padding-top: 300px;
+    overflow: hidden;
     height: 600px;
-    width: auto;
-    background-color: #F8F9FA;
-    background-image: url("/img/cover.jpg");
+    width: 100%;
+    background-color: #100F15;
     background-repeat: no-repeat;
     background-position: center; }
+  body section {
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center; }
+    body section .spacer {
+      height: 100px;
+      width: 100%; }
+    body section .base {
+      height: 600px;
+      width: 100%; }

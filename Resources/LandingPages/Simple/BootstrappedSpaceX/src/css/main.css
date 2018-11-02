@@ -1,19 +1,5 @@
 body {
-  background-color: #A5BEC2; }
-  body .leftspacer {
-    border-color: green;
-    border-bottom: solid 100px #A5BEC2;
-    border-right: solid 683px #A5BEC2;
-    border-left: solid 683px transparent;
-    border-top: solid 100px transparent;
-    background-color: red; }
-  body .rightspacer {
-    border-color: green;
-    border-bottom: solid 100px transparent;
-    border-right: solid 683px transparent;
-    border-left: solid 683px #A5BEC2;
-    border-top: solid 100px #A5BEC2;
-    background-color: red; }
+  background-color: #142A4F; }
   body .mblue {
     background-color: #142A4F; }
   body .red {
@@ -22,27 +8,82 @@ body {
     padding-top: 50px;
     height: 100px; }
   body h1 {
+    padding-top: 50%;
+    font-family: 'Play', sans-serif;
+    font-size: 5rem;
+    text-align: center;
     color: #A5BEC2; }
+  body h3 {
+    font-family: 'Play', sans-serif;
+    font-size: 2rem;
+    text-align: left;
+    color: #142A4F; }
   body a {
     color: #0C121E; }
   body nav a img {
     height: 50px;
     width: 50px; }
   body header {
-    padding-top: 300px;
     overflow: hidden;
     height: 600px;
     width: 100%;
     background-color: #100F15;
-    background-repeat: no-repeat;
-    background-position: center; }
-  body section {
+    background-image: url("/img/cover.jpg");
+    background-repeat: repeat-x;
+    background-position: center;
+    -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+    clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0); }
+  body section.projects {
+    padding-top: 50px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1rem;
+    color: #A5BEC2;
+    height: 600px;
+    width: 100%;
+    overflow: hidden; }
+  body .icons {
+    display: inline-block;
+    font-size: 20px;
+    height: 20px;
+    width: 20px; }
+  body .tw {
+    background-size: contain;
+    background-image: url("/img/twitter-icon.png"); }
+  body .fb {
+    background-size: contain;
+    background-image: url("/img/facebook-icon.png"); }
+  body .gg {
+    background-size: contain;
+    background-image: url("/img/googleplus-icon.png"); }
+  body .pi {
+    background-size: contain;
+    background-image: url("/img/pinterest-icon.png"); }
+  body .in {
+    background-size: contain;
+    background-image: url("/img/instagram-icon.png"); }
+  body .yo {
+    background-size: contain;
+    background-image: url("/img/youtube-icon.png"); }
+  body .li {
+    background-size: contain;
+    background-image: url("/img/linkedin-icon.png"); }
+  body img.avatar {
+    margin: 0px 40px 40px 0px;
+    float: left;
+    height: 170px;
+    width: 170px;
+    border-radius: 10%; }
+  body section.team {
+    background-color: #A5BEC2;
+    padding-top: 30px;
+    padding-left: 150px;
     overflow: hidden;
-    background-repeat: no-repeat;
-    background-position: center; }
-    body section .spacer {
-      height: 100px;
-      width: 100%; }
-    body section .base {
-      height: 600px;
-      width: 100%; }
+    height: auto;
+    width: 100%; }
+    body section.team p {
+      padding: 0px 30px 60px 0px;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 14px; }
+  body section.contacts {
+    padding: 10%;
+    color: #A5BEC2; }

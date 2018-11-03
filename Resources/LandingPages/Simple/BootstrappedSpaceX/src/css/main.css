@@ -1,81 +1,89 @@
-@import url("https://fonts.googleapis.com/css?family=Allura|Gloria+Hallelujah|Great+Vibes|Indie+Flower|Lovers+Quarrel|Marck+Script|Megrim|Shadows+Into+Light|Tulpen+One");
-/*****************
-    HTML,BODY
-******************/
-html {
-  min-height: 100%;
-  position: relative; }
-
 body {
-  margin-bottom: 40px;
-  background: snow; }
-
-/*HEADER*/
-header {
-  height: 275px; }
-  header h1 {
-    padding-top: 70px;
-    padding-bottom: 70px;
+  background-color: #142A4F; }
+  body .mblue {
+    background-color: #142A4F; }
+  body .red {
+    background-color: red; }
+  body .hundred {
+    padding-top: 50px;
+    height: 100px; }
+  body h1 {
+    padding-top: 50%;
+    font-family: 'Play', sans-serif;
+    font-size: 5rem;
     text-align: center;
-    font-family: 'Megrim', cursive;
-    color: #f48fb1;
-    font-weight: bolder;
-    border-bottom: 1px solid #F2F2F2;
+    color: #A5BEC2; }
+  body h3 {
+    font-family: 'Play', sans-serif;
+    font-size: 2rem;
+    text-align: left;
+    color: #142A4F; }
+  body a {
+    color: #0C121E; }
+  body nav a img {
+    height: 50px;
+    width: 50px; }
+  body header {
+    overflow: hidden;
+    height: 600px;
+    width: 100%;
+    background-color: #100F15;
+    background-image: url("/img/cover.jpg");
+    background-repeat: repeat-x;
+    background-position: center;
+    -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+    clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0); }
+  body section.projects {
+    padding-top: 50px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1rem;
+    color: #A5BEC2;
+    height: 600px;
+    width: 100%;
+    overflow: hidden; }
+  body .icons {
+    display: inline-block;
+    font-size: 20px;
+    height: 20px;
+    width: 20px; }
+  body .tw {
+    background-size: contain;
+    background-image: url("/img/twitter-icon.png"); }
+  body .fb {
+    background-size: contain;
+    background-image: url("/img/facebook-icon.png"); }
+  body .gg {
+    background-size: contain;
+    background-image: url("/img/googleplus-icon.png"); }
+  body .pi {
+    background-size: contain;
+    background-image: url("/img/pinterest-icon.png"); }
+  body .in {
+    background-size: contain;
+    background-image: url("/img/instagram-icon.png"); }
+  body .yo {
+    background-size: contain;
+    background-image: url("/img/youtube-icon.png"); }
+  body .li {
+    background-size: contain;
+    background-image: url("/img/linkedin-icon.png"); }
+  body img.avatar {
+    margin: 0px 40px 40px 0px;
+    float: left;
+    height: 170px;
+    width: 170px;
+    border-radius: 10%; }
+  body section.team {
+    background-color: #A5BEC2;
+    padding-top: 30px;
+    padding-left: 150px;
+    overflow: hidden;
+    height: auto;
     width: 100%; }
-    header h1:hover {
-      color: #eb3270; }
-
-/*NAV*/
-nav {
-  margin-bottom: 20px; }
-  nav ul {
-    border-bottom: 1px solid #F2F2F2;
-    height: 80px;
-    width: 100%; }
-    nav ul li {
-      padding-top: 15px;
-      padding-bottom: 20px; }
-      nav ul li a {
-        color: #f48fb1; }
-        nav ul li a:hover {
-          color: #eb3270;
-          border-bottom: 2px solid #eb3270;
-          padding-bottom: 30px; }
-
-/**MAIN**/
-main span.image {
-  background-image: url("../img/cover.jpg");
-  background-size: cover;
-  height: 350px;
-  width: 100%;
-  display: inline-block; }
-
-main #folow-insta {
-  background-color: #f48fb1;
-  min-height: 100%;
-  margin-bottom: 30px;
-  padding-left: 25px; }
-
-main #about-nails {
-  background-color: #b3f4b8;
-  min-height: 100%;
-  margin-bottom: 30px; }
-
-.block {
-  height: 150px;
-  width: 100px;
-  background-color: blue;
-  position: relative;
-  margin: 10px;
-  float: left; }
-
-/*****************
-      FOOTER AREA
-******************/
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* fixed height of the footer here */
-  height: 40px;
-  margin-bottom: 20px; }
+    body section.team p {
+      padding: 0px 30px 60px 0px;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 14px; }
+  body section.contacts {
+    padding: 10%;
+    color: #A5BEC2; }

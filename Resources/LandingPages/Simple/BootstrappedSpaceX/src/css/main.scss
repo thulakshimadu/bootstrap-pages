@@ -8,15 +8,20 @@ $img-border-color:#100F15;
 // font-family: 'Armata', sans-serif;
 
 body{
+  .navbox{
+    float: right;
+    text-align: right;
+    width: 100%;
+  }
+  .navbar-nav{
+    float: right;
+    // outline: 1px solid red;
+  }
   .mblue{
     background-color:$base-color;
   }
   .red{
     background-color: red;
-  }
-  .hundred{
-    padding-top: 50px;
-    height: 100px;
   }
   background-color: $base-color;
   h1{
@@ -26,11 +31,15 @@ body{
     text-align: center;
     color: $second-color;
   }
-  h3{
-    font-family: 'Play', sans-serif;
-    font-size: 2rem;
-    text-align: left;
+  h2{
+    font-family: 'Orbitron', sans-serif;
+    // font-family: 'Play', sans-serif;
+    font-size: 3rem;
+    text-align: center;
     color: $base-color;
+  }
+  .highlight{
+    color: $second-color;
   }
   a{
     color: $links-color;
@@ -45,7 +54,7 @@ body{
   }
   header{
     overflow: hidden;
-    height: 600px;
+    height: 1000px;
     width:100%;
     background-color:$img-border-color;
     background-image: url("/img/cover.jpg");
@@ -100,7 +109,7 @@ body{
     }
     // .tw .fb .gg .pi .in .yo .li
   img.avatar{
-    margin: 0px 40px 40px 0px;
+    margin: 0px 1% 1% 0px;
     float: left;
     height: 170px;
     width: 170px;
@@ -109,7 +118,7 @@ body{
   section.team{
     background-color: $second-color;
     padding-top: 30px;
-    padding-left: 150px;
+    padding-left: 5%;
     overflow: hidden;
     height: auto;
     width:100%;

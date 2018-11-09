@@ -16,7 +16,13 @@ Before start use `gulp watch` and use `http://localhost:3000/` for live content.
 
 ## Goal
 1. To create Landing Page boilerplate and create tutorial for easy spin up any project.
-2. Learn or remember how to create pages.
+2. Learn or refresh how to create pages.
 3. Find best solution for style and optimization, also templates without frameworks as React, Vue and Angular (Frameworks - it just better approach in some cases).
 4. Find more friends and teammates on github.
 5. Earn as mutch as possible stars and forks.
+
+## Screenshot
+ * Team images, projects and template name only as example.
+![Screenshot](/Screenshot.png)
+
+* Last readme update 09.10.2018s

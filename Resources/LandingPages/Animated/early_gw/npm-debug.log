@@ -1,0 +1,1207 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'gulp-install' ]
+2 info using npm@3.5.2
+3 info using node@v4.2.6
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData gulp-install
+8 silly fetchNamedPackageData gulp-install
+9 silly mapToRegistry name gulp-install
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/gulp-install
+13 verbose request uri https://registry.npmjs.org/gulp-install
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 4:41:03 PM
+16 verbose request id d26bdaf1ef14bfcd
+17 verbose etag "8YHKMP0HZPEDM4O91LQGZFWWU"
+18 http request GET https://registry.npmjs.org/gulp-install
+19 http 304 https://registry.npmjs.org/gulp-install
+20 verbose headers { date: 'Mon, 24 Oct 2016 13:41:03 GMT',
+20 verbose headers   via: '1.1 varnish',
+20 verbose headers   'cache-control': 'max-age=300',
+20 verbose headers   etag: '"8YHKMP0HZPEDM4O91LQGZFWWU"',
+20 verbose headers   age: '85',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-served-by': 'cache-ams4436-AMS',
+20 verbose headers   'x-cache': 'HIT',
+20 verbose headers   'x-cache-hits': '1',
+20 verbose headers   'x-timer': 'S1477316463.333276,VS0,VE0',
+20 verbose headers   vary: 'Accept-Encoding' }
+21 silly get cb [ 304,
+21 silly get   { date: 'Mon, 24 Oct 2016 13:41:03 GMT',
+21 silly get     via: '1.1 varnish',
+21 silly get     'cache-control': 'max-age=300',
+21 silly get     etag: '"8YHKMP0HZPEDM4O91LQGZFWWU"',
+21 silly get     age: '85',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-served-by': 'cache-ams4436-AMS',
+21 silly get     'x-cache': 'HIT',
+21 silly get     'x-cache-hits': '1',
+21 silly get     'x-timer': 'S1477316463.333276,VS0,VE0',
+21 silly get     vary: 'Accept-Encoding' } ]
+22 verbose etag https://registry.npmjs.org/gulp-install from cache
+23 verbose get saving gulp-install to /home/labrtr/.npm/registry.npmjs.org/gulp-install/.cache.json
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule gulp-install@0.6.0 checking installable status
+37 silly cache add args [ 'gulp-install', null ]
+38 verbose cache add spec gulp-install
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'gulp-install',
+39 silly cache add   scope: null,
+39 silly cache add   name: 'gulp-install',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed gulp-install@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for gulp-install
+42 info addNameTag [ 'gulp-install', 'latest' ]
+43 silly mapToRegistry name gulp-install
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry uri https://registry.npmjs.org/gulp-install
+47 verbose addNameTag registry:https://registry.npmjs.org/gulp-install not in flight; fetching
+48 verbose get https://registry.npmjs.org/gulp-install not expired, no request
+49 silly addNameTag next cb for gulp-install with tag latest
+50 silly addNamed gulp-install@0.6.0
+51 verbose addNamed "0.6.0" is a plain semver version for gulp-install
+52 silly cache afterAdd gulp-install@0.6.0
+53 verbose afterAdd /home/labrtr/.npm/gulp-install/0.6.0/package/package.json not in flight; writing
+54 verbose afterAdd /home/labrtr/.npm/gulp-install/0.6.0/package/package.json written
+55 silly fetchNamedPackageData gulp-util
+56 silly mapToRegistry name gulp-util
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry uri https://registry.npmjs.org/gulp-util
+60 verbose request uri https://registry.npmjs.org/gulp-util
+61 verbose request no auth needed
+62 info attempt registry request try #1 at 4:41:03 PM
+63 verbose etag "9RCBRWNCRZZKC83B6ALUN3HNE"
+64 http request GET https://registry.npmjs.org/gulp-util
+65 http 304 https://registry.npmjs.org/gulp-util
+66 verbose headers { date: 'Mon, 24 Oct 2016 13:41:03 GMT',
+66 verbose headers   via: '1.1 varnish',
+66 verbose headers   'cache-control': 'max-age=300',
+66 verbose headers   etag: '"9RCBRWNCRZZKC83B6ALUN3HNE"',
+66 verbose headers   age: '223',
+66 verbose headers   connection: 'keep-alive',
+66 verbose headers   'x-served-by': 'cache-ams4433-AMS',
+66 verbose headers   'x-cache': 'HIT',
+66 verbose headers   'x-cache-hits': '5',
+66 verbose headers   'x-timer': 'S1477316463.657764,VS0,VE0',
+66 verbose headers   vary: 'Accept-Encoding' }
+67 silly get cb [ 304,
+67 silly get   { date: 'Mon, 24 Oct 2016 13:41:03 GMT',
+67 silly get     via: '1.1 varnish',
+67 silly get     'cache-control': 'max-age=300',
+67 silly get     etag: '"9RCBRWNCRZZKC83B6ALUN3HNE"',
+67 silly get     age: '223',
+67 silly get     connection: 'keep-alive',
+67 silly get     'x-served-by': 'cache-ams4433-AMS',
+67 silly get     'x-cache': 'HIT',
+67 silly get     'x-cache-hits': '5',
+67 silly get     'x-timer': 'S1477316463.657764,VS0,VE0',
+67 silly get     vary: 'Accept-Encoding' } ]
+68 verbose etag https://registry.npmjs.org/gulp-util from cache
+69 verbose get saving gulp-util to /home/labrtr/.npm/registry.npmjs.org/gulp-util/.cache.json
+70 silly resolveWithNewModule gulp-util@3.0.7 checking installable status
+71 silly cache add args [ 'gulp-util@^3.0.4', null ]
+72 verbose cache add spec gulp-util@^3.0.4
+73 silly cache add parsed spec Result {
+73 silly cache add   raw: 'gulp-util@^3.0.4',
+73 silly cache add   scope: null,
+73 silly cache add   name: 'gulp-util',
+73 silly cache add   rawSpec: '^3.0.4',
+73 silly cache add   spec: '>=3.0.4 <4.0.0',
+73 silly cache add   type: 'range' }
+74 silly addNamed gulp-util@>=3.0.4 <4.0.0
+75 verbose addNamed ">=3.0.4 <4.0.0" is a valid semver range for gulp-util
+76 silly addNameRange { name: 'gulp-util', range: '>=3.0.4 <4.0.0', hasData: false }
+77 silly mapToRegistry name gulp-util
+78 silly mapToRegistry using default registry
+79 silly mapToRegistry registry https://registry.npmjs.org/
+80 silly mapToRegistry uri https://registry.npmjs.org/gulp-util
+81 verbose addNameRange registry:https://registry.npmjs.org/gulp-util not in flight; fetching
+82 verbose get https://registry.npmjs.org/gulp-util not expired, no request
+83 silly addNameRange number 2 { name: 'gulp-util', range: '>=3.0.4 <4.0.0', hasData: true }
+84 silly addNameRange versions [ 'gulp-util',
+84 silly addNameRange   [ '0.0.1',
+84 silly addNameRange     '1.0.0',
+84 silly addNameRange     '1.1.0',
+84 silly addNameRange     '1.1.1',
+84 silly addNameRange     '1.2.0',
+84 silly addNameRange     '1.3.0',
+84 silly addNameRange     '2.0.0',
+84 silly addNameRange     '2.1.1',
+84 silly addNameRange     '2.1.2',
+84 silly addNameRange     '2.1.3',
+84 silly addNameRange     '2.1.4',
+84 silly addNameRange     '2.2.0',
+84 silly addNameRange     '2.2.1',
+84 silly addNameRange     '2.2.2',
+84 silly addNameRange     '2.2.3',
+84 silly addNameRange     '2.2.5',
+84 silly addNameRange     '2.2.6',
+84 silly addNameRange     '2.2.7',
+84 silly addNameRange     '2.2.8',
+84 silly addNameRange     '2.2.9',
+84 silly addNameRange     '2.2.10',
+84 silly addNameRange     '2.2.11',
+84 silly addNameRange     '2.2.12',
+84 silly addNameRange     '2.2.13',
+84 silly addNameRange     '2.2.14',
+84 silly addNameRange     '2.2.15',
+84 silly addNameRange     '2.2.16',
+84 silly addNameRange     '2.2.17',
+84 silly addNameRange     '2.2.18',
+84 silly addNameRange     '2.2.19',
+84 silly addNameRange     '2.2.20',
+84 silly addNameRange     '3.0.0',
+84 silly addNameRange     '3.0.1',
+84 silly addNameRange     '3.0.2',
+84 silly addNameRange     '3.0.3',
+84 silly addNameRange     '3.0.4',
+84 silly addNameRange     '3.0.5',
+84 silly addNameRange     '3.0.6',
+84 silly addNameRange     '3.0.7' ] ]
+85 silly addNamed gulp-util@3.0.7
+86 verbose addNamed "3.0.7" is a plain semver version for gulp-util
+87 silly cache afterAdd gulp-util@3.0.7
+88 verbose afterAdd /home/labrtr/.npm/gulp-util/3.0.7/package/package.json not in flight; writing
+89 verbose afterAdd /home/labrtr/.npm/gulp-util/3.0.7/package/package.json written
+90 silly fetchNamedPackageData dateformat
+91 silly mapToRegistry name dateformat
+92 silly mapToRegistry using default registry
+93 silly mapToRegistry registry https://registry.npmjs.org/
+94 silly mapToRegistry uri https://registry.npmjs.org/dateformat
+95 verbose request uri https://registry.npmjs.org/dateformat
+96 verbose request no auth needed
+97 info attempt registry request try #1 at 4:41:03 PM
+98 verbose etag "5FOZAX0XVVZRH2JBHOHGPUB3R"
+99 http request GET https://registry.npmjs.org/dateformat
+100 http 304 https://registry.npmjs.org/dateformat
+101 verbose headers { date: 'Mon, 24 Oct 2016 13:41:03 GMT',
+101 verbose headers   via: '1.1 varnish',
+101 verbose headers   'cache-control': 'max-age=300',
+101 verbose headers   etag: '"5FOZAX0XVVZRH2JBHOHGPUB3R"',
+101 verbose headers   age: '243',
+101 verbose headers   connection: 'keep-alive',
+101 verbose headers   'x-served-by': 'cache-ams4437-AMS',
+101 verbose headers   'x-cache': 'HIT',
+101 verbose headers   'x-cache-hits': '5',
+101 verbose headers   'x-timer': 'S1477316463.884364,VS0,VE0',
+101 verbose headers   vary: 'Accept-Encoding' }
+102 silly get cb [ 304,
+102 silly get   { date: 'Mon, 24 Oct 2016 13:41:03 GMT',
+102 silly get     via: '1.1 varnish',
+102 silly get     'cache-control': 'max-age=300',
+102 silly get     etag: '"5FOZAX0XVVZRH2JBHOHGPUB3R"',
+102 silly get     age: '243',
+102 silly get     connection: 'keep-alive',
+102 silly get     'x-served-by': 'cache-ams4437-AMS',
+102 silly get     'x-cache': 'HIT',
+102 silly get     'x-cache-hits': '5',
+102 silly get     'x-timer': 'S1477316463.884364,VS0,VE0',
+102 silly get     vary: 'Accept-Encoding' } ]
+103 verbose etag https://registry.npmjs.org/dateformat from cache
+104 verbose get saving dateformat to /home/labrtr/.npm/registry.npmjs.org/dateformat/.cache.json
+105 silly resolveWithNewModule dateformat@1.0.12 checking installable status
+106 silly cache add args [ 'dateformat@^1.0.11', null ]
+107 verbose cache add spec dateformat@^1.0.11
+108 silly cache add parsed spec Result {
+108 silly cache add   raw: 'dateformat@^1.0.11',
+108 silly cache add   scope: null,
+108 silly cache add   name: 'dateformat',
+108 silly cache add   rawSpec: '^1.0.11',
+108 silly cache add   spec: '>=1.0.11 <2.0.0',
+108 silly cache add   type: 'range' }
+109 silly addNamed dateformat@>=1.0.11 <2.0.0
+110 verbose addNamed ">=1.0.11 <2.0.0" is a valid semver range for dateformat
+111 silly addNameRange { name: 'dateformat', range: '>=1.0.11 <2.0.0', hasData: false }
+112 silly mapToRegistry name dateformat
+113 silly mapToRegistry using default registry
+114 silly mapToRegistry registry https://registry.npmjs.org/
+115 silly mapToRegistry uri https://registry.npmjs.org/dateformat
+116 verbose addNameRange registry:https://registry.npmjs.org/dateformat not in flight; fetching
+117 verbose get https://registry.npmjs.org/dateformat not expired, no request
+118 silly addNameRange number 2 { name: 'dateformat', range: '>=1.0.11 <2.0.0', hasData: true }
+119 silly addNameRange versions [ 'dateformat',
+119 silly addNameRange   [ '0.9.0-1.2.3',
+119 silly addNameRange     '1.0.0-1.2.3',
+119 silly addNameRange     '1.0.1-1.2.3',
+119 silly addNameRange     '1.0.2-1.2.3',
+119 silly addNameRange     '1.0.3-1.2.3',
+119 silly addNameRange     '1.0.4-1.2.3',
+119 silly addNameRange     '1.0.5-1.2.3',
+119 silly addNameRange     '1.0.6-1.2.3',
+119 silly addNameRange     '1.0.7-1.2.3',
+119 silly addNameRange     '1.0.8-1.2.3',
+119 silly addNameRange     '1.0.8',
+119 silly addNameRange     '1.0.9',
+119 silly addNameRange     '1.0.10',
+119 silly addNameRange     '1.0.11',
+119 silly addNameRange     '1.0.12' ] ]
+120 silly addNamed dateformat@1.0.12
+121 verbose addNamed "1.0.12" is a plain semver version for dateformat
+122 silly cache afterAdd dateformat@1.0.12
+123 verbose afterAdd /home/labrtr/.npm/dateformat/1.0.12/package/package.json not in flight; writing
+124 verbose afterAdd /home/labrtr/.npm/dateformat/1.0.12/package/package.json written
+125 silly fetchNamedPackageData meow
+126 silly mapToRegistry name meow
+127 silly mapToRegistry using default registry
+128 silly mapToRegistry registry https://registry.npmjs.org/
+129 silly mapToRegistry uri https://registry.npmjs.org/meow
+130 verbose request uri https://registry.npmjs.org/meow
+131 verbose request no auth needed
+132 info attempt registry request try #1 at 4:41:03 PM
+133 verbose etag "BYT9SF9ZL8GUA5SW0WI3CRK9W"
+134 http request GET https://registry.npmjs.org/meow
+135 http 304 https://registry.npmjs.org/meow
+136 verbose headers { date: 'Mon, 24 Oct 2016 13:41:04 GMT',
+136 verbose headers   via: '1.1 varnish',
+136 verbose headers   'cache-control': 'max-age=300',
+136 verbose headers   etag: '"BYT9SF9ZL8GUA5SW0WI3CRK9W"',
+136 verbose headers   age: '291',
+136 verbose headers   connection: 'keep-alive',
+136 verbose headers   'x-served-by': 'cache-ams4431-AMS',
+136 verbose headers   'x-cache': 'HIT',
+136 verbose headers   'x-cache-hits': '5',
+136 verbose headers   'x-timer': 'S1477316464.110350,VS0,VE0',
+136 verbose headers   vary: 'Accept-Encoding' }
+137 silly get cb [ 304,
+137 silly get   { date: 'Mon, 24 Oct 2016 13:41:04 GMT',
+137 silly get     via: '1.1 varnish',
+137 silly get     'cache-control': 'max-age=300',
+137 silly get     etag: '"BYT9SF9ZL8GUA5SW0WI3CRK9W"',
+137 silly get     age: '291',
+137 silly get     connection: 'keep-alive',
+137 silly get     'x-served-by': 'cache-ams4431-AMS',
+137 silly get     'x-cache': 'HIT',
+137 silly get     'x-cache-hits': '5',
+137 silly get     'x-timer': 'S1477316464.110350,VS0,VE0',
+137 silly get     vary: 'Accept-Encoding' } ]
+138 verbose etag https://registry.npmjs.org/meow from cache
+139 verbose get saving meow to /home/labrtr/.npm/registry.npmjs.org/meow/.cache.json
+140 silly resolveWithNewModule meow@3.7.0 checking installable status
+141 silly cache add args [ 'meow@^3.3.0', null ]
+142 verbose cache add spec meow@^3.3.0
+143 silly cache add parsed spec Result {
+143 silly cache add   raw: 'meow@^3.3.0',
+143 silly cache add   scope: null,
+143 silly cache add   name: 'meow',
+143 silly cache add   rawSpec: '^3.3.0',
+143 silly cache add   spec: '>=3.3.0 <4.0.0',
+143 silly cache add   type: 'range' }
+144 silly addNamed meow@>=3.3.0 <4.0.0
+145 verbose addNamed ">=3.3.0 <4.0.0" is a valid semver range for meow
+146 silly addNameRange { name: 'meow', range: '>=3.3.0 <4.0.0', hasData: false }
+147 silly mapToRegistry name meow
+148 silly mapToRegistry using default registry
+149 silly mapToRegistry registry https://registry.npmjs.org/
+150 silly mapToRegistry uri https://registry.npmjs.org/meow
+151 verbose addNameRange registry:https://registry.npmjs.org/meow not in flight; fetching
+152 verbose get https://registry.npmjs.org/meow not expired, no request
+153 silly addNameRange number 2 { name: 'meow', range: '>=3.3.0 <4.0.0', hasData: true }
+154 silly addNameRange versions [ 'meow',
+154 silly addNameRange   [ '1.0.0',
+154 silly addNameRange     '2.0.0',
+154 silly addNameRange     '2.1.0',
+154 silly addNameRange     '3.0.0',
+154 silly addNameRange     '3.1.0',
+154 silly addNameRange     '3.3.0',
+154 silly addNameRange     '3.4.0',
+154 silly addNameRange     '3.4.1',
+154 silly addNameRange     '3.4.2',
+154 silly addNameRange     '3.5.0',
+154 silly addNameRange     '3.6.0',
+154 silly addNameRange     '3.7.0' ] ]
+155 silly addNamed meow@3.7.0
+156 verbose addNamed "3.7.0" is a plain semver version for meow
+157 silly cache afterAdd meow@3.7.0
+158 verbose afterAdd /home/labrtr/.npm/meow/3.7.0/package/package.json not in flight; writing
+159 verbose afterAdd /home/labrtr/.npm/meow/3.7.0/package/package.json written
+160 silly fetchNamedPackageData normalize-package-data
+161 silly mapToRegistry name normalize-package-data
+162 silly mapToRegistry using default registry
+163 silly mapToRegistry registry https://registry.npmjs.org/
+164 silly mapToRegistry uri https://registry.npmjs.org/normalize-package-data
+165 silly fetchNamedPackageData object-assign
+166 silly mapToRegistry name object-assign
+167 silly mapToRegistry using default registry
+168 silly mapToRegistry registry https://registry.npmjs.org/
+169 silly mapToRegistry uri https://registry.npmjs.org/object-assign
+170 verbose request uri https://registry.npmjs.org/object-assign
+171 verbose request no auth needed
+172 info attempt registry request try #1 at 4:41:04 PM
+173 verbose etag "C3LGSGLPLG8L944Z6QOOXRDLT"
+174 http request GET https://registry.npmjs.org/object-assign
+175 verbose get https://registry.npmjs.org/normalize-package-data not expired, no request
+176 silly resolveWithNewModule normalize-package-data@2.3.5 checking installable status
+177 silly cache add args [ 'normalize-package-data@^2.3.4', null ]
+178 verbose cache add spec normalize-package-data@^2.3.4
+179 silly cache add parsed spec Result {
+179 silly cache add   raw: 'normalize-package-data@^2.3.4',
+179 silly cache add   scope: null,
+179 silly cache add   name: 'normalize-package-data',
+179 silly cache add   rawSpec: '^2.3.4',
+179 silly cache add   spec: '>=2.3.4 <3.0.0',
+179 silly cache add   type: 'range' }
+180 silly addNamed normalize-package-data@>=2.3.4 <3.0.0
+181 verbose addNamed ">=2.3.4 <3.0.0" is a valid semver range for normalize-package-data
+182 silly addNameRange { name: 'normalize-package-data',
+182 silly addNameRange   range: '>=2.3.4 <3.0.0',
+182 silly addNameRange   hasData: false }
+183 silly mapToRegistry name normalize-package-data
+184 silly mapToRegistry using default registry
+185 silly mapToRegistry registry https://registry.npmjs.org/
+186 silly mapToRegistry uri https://registry.npmjs.org/normalize-package-data
+187 verbose addNameRange registry:https://registry.npmjs.org/normalize-package-data not in flight; fetching
+188 verbose get https://registry.npmjs.org/normalize-package-data not expired, no request
+189 silly addNameRange number 2 { name: 'normalize-package-data',
+189 silly addNameRange   range: '>=2.3.4 <3.0.0',
+189 silly addNameRange   hasData: true }
+190 silly addNameRange versions [ 'normalize-package-data',
+190 silly addNameRange   [ '0.0.1',
+190 silly addNameRange     '0.0.3',
+190 silly addNameRange     '0.0.5',
+190 silly addNameRange     '0.0.7',
+190 silly addNameRange     '0.0.9',
+190 silly addNameRange     '0.0.10',
+190 silly addNameRange     '0.1.1',
+190 silly addNameRange     '0.1.2',
+190 silly addNameRange     '0.1.3',
+190 silly addNameRange     '0.1.4',
+190 silly addNameRange     '0.1.5',
+190 silly addNameRange     '0.1.6',
+190 silly addNameRange     '0.1.7',
+190 silly addNameRange     '0.2.0',
+190 silly addNameRange     '0.2.1',
+190 silly addNameRange     '0.2.2',
+190 silly addNameRange     '0.2.3',
+190 silly addNameRange     '0.2.4',
+190 silly addNameRange     '0.2.5',
+190 silly addNameRange     '0.2.6',
+190 silly addNameRange     '0.2.7',
+190 silly addNameRange     '0.2.8',
+190 silly addNameRange     '0.2.9',
+190 silly addNameRange     '0.2.11',
+190 silly addNameRange     '0.2.12',
+190 silly addNameRange     '0.2.13',
+190 silly addNameRange     '0.3.0',
+190 silly addNameRange     '0.4.1',
+190 silly addNameRange     '0.4.2',
+190 silly addNameRange     '1.0.0',
+190 silly addNameRange     '1.0.1',
+190 silly addNameRange     '1.0.2',
+190 silly addNameRange     '1.0.3',
+190 silly addNameRange     '2.0.0',
+190 silly addNameRange     '2.1.0',
+190 silly addNameRange     '2.2.0',
+190 silly addNameRange     '2.2.1',
+190 silly addNameRange     '2.3.0',
+190 silly addNameRange     '2.3.1',
+190 silly addNameRange     '2.3.2',
+190 silly addNameRange     '2.3.3',
+190 silly addNameRange     '2.3.4',
+190 silly addNameRange     '2.3.5' ] ]
+191 silly addNamed normalize-package-data@2.3.5
+192 verbose addNamed "2.3.5" is a plain semver version for normalize-package-data
+193 silly cache afterAdd normalize-package-data@2.3.5
+194 verbose afterAdd /home/labrtr/.npm/normalize-package-data/2.3.5/package/package.json not in flight; writing
+195 verbose afterAdd /home/labrtr/.npm/normalize-package-data/2.3.5/package/package.json written
+196 http 304 https://registry.npmjs.org/object-assign
+197 verbose headers { date: 'Mon, 24 Oct 2016 13:41:04 GMT',
+197 verbose headers   via: '1.1 varnish',
+197 verbose headers   'cache-control': 'max-age=300',
+197 verbose headers   etag: '"C3LGSGLPLG8L944Z6QOOXRDLT"',
+197 verbose headers   age: '56',
+197 verbose headers   connection: 'keep-alive',
+197 verbose headers   'x-served-by': 'cache-ams4439-AMS',
+197 verbose headers   'x-cache': 'HIT',
+197 verbose headers   'x-cache-hits': '3',
+197 verbose headers   'x-timer': 'S1477316464.339270,VS0,VE0',
+197 verbose headers   vary: 'Accept-Encoding' }
+198 silly get cb [ 304,
+198 silly get   { date: 'Mon, 24 Oct 2016 13:41:04 GMT',
+198 silly get     via: '1.1 varnish',
+198 silly get     'cache-control': 'max-age=300',
+198 silly get     etag: '"C3LGSGLPLG8L944Z6QOOXRDLT"',
+198 silly get     age: '56',
+198 silly get     connection: 'keep-alive',
+198 silly get     'x-served-by': 'cache-ams4439-AMS',
+198 silly get     'x-cache': 'HIT',
+198 silly get     'x-cache-hits': '3',
+198 silly get     'x-timer': 'S1477316464.339270,VS0,VE0',
+198 silly get     vary: 'Accept-Encoding' } ]
+199 verbose etag https://registry.npmjs.org/object-assign from cache
+200 verbose get saving object-assign to /home/labrtr/.npm/registry.npmjs.org/object-assign/.cache.json
+201 silly resolveWithNewModule object-assign@4.1.0 checking installable status
+202 silly cache add args [ 'object-assign@^4.0.1', null ]
+203 verbose cache add spec object-assign@^4.0.1
+204 silly cache add parsed spec Result {
+204 silly cache add   raw: 'object-assign@^4.0.1',
+204 silly cache add   scope: null,
+204 silly cache add   name: 'object-assign',
+204 silly cache add   rawSpec: '^4.0.1',
+204 silly cache add   spec: '>=4.0.1 <5.0.0',
+204 silly cache add   type: 'range' }
+205 silly addNamed object-assign@>=4.0.1 <5.0.0
+206 verbose addNamed ">=4.0.1 <5.0.0" is a valid semver range for object-assign
+207 silly addNameRange { name: 'object-assign',
+207 silly addNameRange   range: '>=4.0.1 <5.0.0',
+207 silly addNameRange   hasData: false }
+208 silly mapToRegistry name object-assign
+209 silly mapToRegistry using default registry
+210 silly mapToRegistry registry https://registry.npmjs.org/
+211 silly mapToRegistry uri https://registry.npmjs.org/object-assign
+212 verbose addNameRange registry:https://registry.npmjs.org/object-assign not in flight; fetching
+213 verbose get https://registry.npmjs.org/object-assign not expired, no request
+214 silly addNameRange number 2 { name: 'object-assign', range: '>=4.0.1 <5.0.0', hasData: true }
+215 silly addNameRange versions [ 'object-assign',
+215 silly addNameRange   [ '0.1.0',
+215 silly addNameRange     '0.1.1',
+215 silly addNameRange     '0.1.2',
+215 silly addNameRange     '0.2.0',
+215 silly addNameRange     '0.2.1',
+215 silly addNameRange     '0.2.2',
+215 silly addNameRange     '0.3.0',
+215 silly addNameRange     '0.3.1',
+215 silly addNameRange     '0.4.0',
+215 silly addNameRange     '1.0.0',
+215 silly addNameRange     '2.0.0',
+215 silly addNameRange     '3.0.0',
+215 silly addNameRange     '2.1.1',
+215 silly addNameRange     '4.0.0',
+215 silly addNameRange     '4.0.1',
+215 silly addNameRange     '4.1.0' ] ]
+216 silly addNamed object-assign@4.1.0
+217 verbose addNamed "4.1.0" is a plain semver version for object-assign
+218 silly cache afterAdd object-assign@4.1.0
+219 verbose afterAdd /home/labrtr/.npm/object-assign/4.1.0/package/package.json not in flight; writing
+220 verbose afterAdd /home/labrtr/.npm/object-assign/4.1.0/package/package.json written
+221 silly fetchNamedPackageData semver
+222 silly mapToRegistry name semver
+223 silly mapToRegistry using default registry
+224 silly mapToRegistry registry https://registry.npmjs.org/
+225 silly mapToRegistry uri https://registry.npmjs.org/semver
+226 verbose get https://registry.npmjs.org/semver not expired, no request
+227 silly resolveWithNewModule semver@5.3.0 checking installable status
+228 silly cache add args [ 'semver@2 || 3 || 4 || 5', null ]
+229 verbose cache add spec semver@2 || 3 || 4 || 5
+230 silly cache add parsed spec Result {
+230 silly cache add   raw: 'semver@2 || 3 || 4 || 5',
+230 silly cache add   scope: null,
+230 silly cache add   name: 'semver',
+230 silly cache add   rawSpec: '2 || 3 || 4 || 5',
+230 silly cache add   spec: '>=2.0.0 <3.0.0||>=3.0.0 <4.0.0||>=4.0.0 <5.0.0||>=5.0.0 <6.0.0',
+230 silly cache add   type: 'range' }
+231 silly addNamed semver@>=2.0.0 <3.0.0||>=3.0.0 <4.0.0||>=4.0.0 <5.0.0||>=5.0.0 <6.0.0
+232 verbose addNamed ">=2.0.0 <3.0.0||>=3.0.0 <4.0.0||>=4.0.0 <5.0.0||>=5.0.0 <6.0.0" is a valid semver range for semver
+233 silly addNameRange { name: 'semver',
+233 silly addNameRange   range: '>=2.0.0 <3.0.0||>=3.0.0 <4.0.0||>=4.0.0 <5.0.0||>=5.0.0 <6.0.0',
+233 silly addNameRange   hasData: false }
+234 silly mapToRegistry name semver
+235 silly mapToRegistry using default registry
+236 silly mapToRegistry registry https://registry.npmjs.org/
+237 silly mapToRegistry uri https://registry.npmjs.org/semver
+238 verbose addNameRange registry:https://registry.npmjs.org/semver not in flight; fetching
+239 verbose get https://registry.npmjs.org/semver not expired, no request
+240 silly addNameRange number 2 { name: 'semver',
+240 silly addNameRange   range: '>=2.0.0 <3.0.0||>=3.0.0 <4.0.0||>=4.0.0 <5.0.0||>=5.0.0 <6.0.0',
+240 silly addNameRange   hasData: true }
+241 silly addNameRange versions [ 'semver',
+241 silly addNameRange   [ '1.0.0',
+241 silly addNameRange     '1.0.1',
+241 silly addNameRange     '1.0.2',
+241 silly addNameRange     '1.0.3',
+241 silly addNameRange     '1.0.4',
+241 silly addNameRange     '1.0.5',
+241 silly addNameRange     '1.0.6',
+241 silly addNameRange     '1.0.7',
+241 silly addNameRange     '1.0.8',
+241 silly addNameRange     '1.0.9',
+241 silly addNameRange     '1.0.10',
+241 silly addNameRange     '1.0.11',
+241 silly addNameRange     '1.0.12',
+241 silly addNameRange     '1.0.13',
+241 silly addNameRange     '1.0.14',
+241 silly addNameRange     '1.1.0',
+241 silly addNameRange     '1.1.1',
+241 silly addNameRange     '1.1.2',
+241 silly addNameRange     '1.1.3',
+241 silly addNameRange     '1.1.4',
+241 silly addNameRange     '2.0.0-alpha',
+241 silly addNameRange     '2.0.0-beta',
+241 silly addNameRange     '2.0.1',
+241 silly addNameRange     '2.0.2',
+241 silly addNameRange     '2.0.3',
+241 silly addNameRange     '2.0.4',
+241 silly addNameRange     '2.0.5',
+241 silly addNameRange     '2.0.6',
+241 silly addNameRange     '2.0.7',
+241 silly addNameRange     '2.0.8',
+241 silly addNameRange     '2.0.9',
+241 silly addNameRange     '2.0.10',
+241 silly addNameRange     '2.0.11',
+241 silly addNameRange     '2.1.0',
+241 silly addNameRange     '2.2.0',
+241 silly addNameRange     '2.2.1',
+241 silly addNameRange     '2.3.0',
+241 silly addNameRange     '2.3.1',
+241 silly addNameRange     '2.3.2',
+241 silly addNameRange     '3.0.0',
+241 silly addNameRange     '3.0.1',
+241 silly addNameRange     '4.0.0',
+241 silly addNameRange     '4.0.2',
+241 silly addNameRange     '4.0.3',
+241 silly addNameRange     '4.1.0',
+241 silly addNameRange     '4.1.1',
+241 silly addNameRange     '4.2.0',
+241 silly addNameRange     '4.2.1',
+241 silly addNameRange     '4.2.2',
+241 silly addNameRange     '4.3.0',
+241 silly addNameRange     '4.3.1',
+241 silly addNameRange     '4.3.2',
+241 silly addNameRange     '4.3.3',
+241 silly addNameRange     '4.3.4',
+241 silly addNameRange     '4.3.5',
+241 silly addNameRange     '4.3.6',
+241 silly addNameRange     '5.0.0',
+241 silly addNameRange     '5.0.1',
+241 silly addNameRange     '5.0.2',
+241 silly addNameRange     '5.0.3',
+241 silly addNameRange     '5.1.0',
+241 silly addNameRange     '5.1.1',
+241 silly addNameRange     '5.2.0',
+241 silly addNameRange     '5.3.0' ] ]
+242 silly addNamed semver@5.3.0
+243 verbose addNamed "5.3.0" is a plain semver version for semver
+244 silly cache afterAdd semver@5.3.0
+245 verbose afterAdd /home/labrtr/.npm/semver/5.3.0/package/package.json not in flight; writing
+246 verbose afterAdd /home/labrtr/.npm/semver/5.3.0/package/package.json written
+247 silly loadAllDepsIntoIdealTree Finishing
+248 silly idealTree:prePrune gavelweb.pro
+248 silly idealTree:prePrune ├── ansi-regex@2.0.0
+248 silly idealTree:prePrune ├── ansi-styles@2.2.1
+248 silly idealTree:prePrune ├── array-differ@1.0.0
+248 silly idealTree:prePrune ├── array-find-index@1.0.2
+248 silly idealTree:prePrune ├── array-uniq@1.0.3
+248 silly idealTree:prePrune ├── beeper@1.1.0
+248 silly idealTree:prePrune ├── builtin-modules@1.1.1
+248 silly idealTree:prePrune ├── camelcase-keys@2.1.0
+248 silly idealTree:prePrune ├── camelcase@2.1.1
+248 silly idealTree:prePrune ├── chalk@1.1.3
+248 silly idealTree:prePrune ├── clone-stats@0.0.1
+248 silly idealTree:prePrune ├── clone@1.0.2
+248 silly idealTree:prePrune ├── core-util-is@1.0.2
+248 silly idealTree:prePrune ├── currently-unhandled@0.4.1
+248 silly idealTree:prePrune ├── dateformat@1.0.12
+248 silly idealTree:prePrune ├── decamelize@1.2.0
+248 silly idealTree:prePrune ├── duplexer2@0.0.2
+248 silly idealTree:prePrune ├── error-ex@1.3.0
+248 silly idealTree:prePrune ├── escape-string-regexp@1.0.5
+248 silly idealTree:prePrune ├── fancy-log@1.2.0
+248 silly idealTree:prePrune ├── find-up@1.1.2
+248 silly idealTree:prePrune ├── get-stdin@4.0.1
+248 silly idealTree:prePrune ├── glogg@1.0.0
+248 silly idealTree:prePrune ├── graceful-fs@4.1.9
+248 silly idealTree:prePrune ├── gulp-install@0.6.0
+248 silly idealTree:prePrune ├── gulp-util@3.0.7
+248 silly idealTree:prePrune ├── gulplog@1.0.0
+248 silly idealTree:prePrune ├── has-ansi@2.0.0
+248 silly idealTree:prePrune ├── has-gulplog@0.1.0
+248 silly idealTree:prePrune ├── hosted-git-info@2.1.5
+248 silly idealTree:prePrune ├── indent-string@2.1.0
+248 silly idealTree:prePrune ├── inherits@2.0.3
+248 silly idealTree:prePrune ├── is-arrayish@0.2.1
+248 silly idealTree:prePrune ├── is-builtin-module@1.0.0
+248 silly idealTree:prePrune ├── is-finite@1.0.2
+248 silly idealTree:prePrune ├── is-utf8@0.2.1
+248 silly idealTree:prePrune ├── isarray@0.0.1
+248 silly idealTree:prePrune ├── isexe@1.1.2
+248 silly idealTree:prePrune ├── load-json-file@1.1.0
+248 silly idealTree:prePrune ├── lodash._basecopy@3.0.1
+248 silly idealTree:prePrune ├── lodash._basetostring@3.0.1
+248 silly idealTree:prePrune ├── lodash._basevalues@3.0.0
+248 silly idealTree:prePrune ├── lodash._getnative@3.9.1
+248 silly idealTree:prePrune ├── lodash._isiterateecall@3.0.9
+248 silly idealTree:prePrune ├── lodash._reescape@3.0.0
+248 silly idealTree:prePrune ├── lodash._reevaluate@3.0.0
+248 silly idealTree:prePrune ├── lodash._reinterpolate@3.0.0
+248 silly idealTree:prePrune ├── lodash._root@3.0.1
+248 silly idealTree:prePrune ├── lodash.escape@3.2.0
+248 silly idealTree:prePrune ├── lodash.isarguments@3.1.0
+248 silly idealTree:prePrune ├── lodash.isarray@3.0.4
+248 silly idealTree:prePrune ├── lodash.keys@3.1.2
+248 silly idealTree:prePrune ├── lodash.restparam@3.6.1
+248 silly idealTree:prePrune ├── lodash.template@3.6.2
+248 silly idealTree:prePrune ├── lodash.templatesettings@3.1.1
+248 silly idealTree:prePrune ├── loud-rejection@1.6.0
+248 silly idealTree:prePrune ├── map-obj@1.0.1
+248 silly idealTree:prePrune ├─┬ meow@3.7.0
+248 silly idealTree:prePrune │ └── object-assign@4.1.0
+248 silly idealTree:prePrune ├── minimist@1.2.0
+248 silly idealTree:prePrune ├── multipipe@0.1.2
+248 silly idealTree:prePrune ├── node@0.0.0
+248 silly idealTree:prePrune ├── nodejs@0.0.0
+248 silly idealTree:prePrune ├── normalize-package-data@2.3.5
+248 silly idealTree:prePrune ├── number-is-nan@1.0.1
+248 silly idealTree:prePrune ├── object-assign@3.0.0
+248 silly idealTree:prePrune ├── parse-json@2.2.0
+248 silly idealTree:prePrune ├── path-exists@2.1.0
+248 silly idealTree:prePrune ├── path-type@1.1.0
+248 silly idealTree:prePrune ├── pify@2.3.0
+248 silly idealTree:prePrune ├── pinkie-promise@2.0.1
+248 silly idealTree:prePrune ├── pinkie@2.0.4
+248 silly idealTree:prePrune ├── process-nextick-args@1.0.7
+248 silly idealTree:prePrune ├── read-pkg-up@1.0.1
+248 silly idealTree:prePrune ├── read-pkg@1.1.0
+248 silly idealTree:prePrune ├── readable-stream@1.1.14
+248 silly idealTree:prePrune ├── redent@1.0.0
+248 silly idealTree:prePrune ├── repeating@2.0.1
+248 silly idealTree:prePrune ├── replace-ext@0.0.1
+248 silly idealTree:prePrune ├── semver@5.3.0
+248 silly idealTree:prePrune ├── signal-exit@3.0.1
+248 silly idealTree:prePrune ├── sparkles@1.0.0
+248 silly idealTree:prePrune ├── spdx-correct@1.0.2
+248 silly idealTree:prePrune ├── spdx-expression-parse@1.0.4
+248 silly idealTree:prePrune ├── spdx-license-ids@1.2.2
+248 silly idealTree:prePrune ├── string_decoder@0.10.31
+248 silly idealTree:prePrune ├── strip-ansi@3.0.1
+248 silly idealTree:prePrune ├── strip-bom@2.0.0
+248 silly idealTree:prePrune ├── strip-indent@1.0.1
+248 silly idealTree:prePrune ├── supports-color@2.0.0
+248 silly idealTree:prePrune ├─┬ through2@2.0.1
+248 silly idealTree:prePrune │ ├── isarray@1.0.0
+248 silly idealTree:prePrune │ └── readable-stream@2.0.6
+248 silly idealTree:prePrune ├── time-stamp@1.0.1
+248 silly idealTree:prePrune ├── trim-newlines@1.0.0
+248 silly idealTree:prePrune ├── util-deprecate@1.0.2
+248 silly idealTree:prePrune ├── validate-npm-package-license@3.0.1
+248 silly idealTree:prePrune ├── vinyl@0.5.3
+248 silly idealTree:prePrune ├── which@1.2.11
+248 silly idealTree:prePrune └── xtend@4.0.1
+249 silly loadIdealTree Finishing
+250 silly currentTree gavelweb.pro
+250 silly currentTree ├── ansi-regex@2.0.0
+250 silly currentTree ├── ansi-styles@2.2.1
+250 silly currentTree ├── array-differ@1.0.0
+250 silly currentTree ├── array-find-index@1.0.2
+250 silly currentTree ├── array-uniq@1.0.3
+250 silly currentTree ├── beeper@1.1.0
+250 silly currentTree ├── builtin-modules@1.1.1
+250 silly currentTree ├── camelcase-keys@2.1.0
+250 silly currentTree ├── camelcase@2.1.1
+250 silly currentTree ├── chalk@1.1.3
+250 silly currentTree ├── clone-stats@0.0.1
+250 silly currentTree ├── clone@1.0.2
+250 silly currentTree ├── core-util-is@1.0.2
+250 silly currentTree ├── currently-unhandled@0.4.1
+250 silly currentTree ├── decamelize@1.2.0
+250 silly currentTree ├── duplexer2@0.0.2
+250 silly currentTree ├── error-ex@1.3.0
+250 silly currentTree ├── escape-string-regexp@1.0.5
+250 silly currentTree ├── fancy-log@1.2.0
+250 silly currentTree ├── find-up@1.1.2
+250 silly currentTree ├── get-stdin@4.0.1
+250 silly currentTree ├── glogg@1.0.0
+250 silly currentTree ├── graceful-fs@4.1.9
+250 silly currentTree ├── gulplog@1.0.0
+250 silly currentTree ├── has-ansi@2.0.0
+250 silly currentTree ├── has-gulplog@0.1.0
+250 silly currentTree ├── hosted-git-info@2.1.5
+250 silly currentTree ├── indent-string@2.1.0
+250 silly currentTree ├── inherits@2.0.3
+250 silly currentTree ├── is-arrayish@0.2.1
+250 silly currentTree ├── is-builtin-module@1.0.0
+250 silly currentTree ├── is-finite@1.0.2
+250 silly currentTree ├── is-utf8@0.2.1
+250 silly currentTree ├── isarray@0.0.1
+250 silly currentTree ├── isexe@1.1.2
+250 silly currentTree ├── load-json-file@1.1.0
+250 silly currentTree ├── lodash._basecopy@3.0.1
+250 silly currentTree ├── lodash._basetostring@3.0.1
+250 silly currentTree ├── lodash._basevalues@3.0.0
+250 silly currentTree ├── lodash._getnative@3.9.1
+250 silly currentTree ├── lodash._isiterateecall@3.0.9
+250 silly currentTree ├── lodash._reescape@3.0.0
+250 silly currentTree ├── lodash._reevaluate@3.0.0
+250 silly currentTree ├── lodash._reinterpolate@3.0.0
+250 silly currentTree ├── lodash._root@3.0.1
+250 silly currentTree ├── lodash.escape@3.2.0
+250 silly currentTree ├── lodash.isarguments@3.1.0
+250 silly currentTree ├── lodash.isarray@3.0.4
+250 silly currentTree ├── lodash.keys@3.1.2
+250 silly currentTree ├── lodash.restparam@3.6.1
+250 silly currentTree ├── lodash.template@3.6.2
+250 silly currentTree ├── lodash.templatesettings@3.1.1
+250 silly currentTree ├── loud-rejection@1.6.0
+250 silly currentTree ├── map-obj@1.0.1
+250 silly currentTree ├── minimist@1.2.0
+250 silly currentTree ├── multipipe@0.1.2
+250 silly currentTree ├── node@0.0.0
+250 silly currentTree ├── nodejs@0.0.0
+250 silly currentTree ├── number-is-nan@1.0.1
+250 silly currentTree ├── object-assign@3.0.0
+250 silly currentTree ├── parse-json@2.2.0
+250 silly currentTree ├── path-exists@2.1.0
+250 silly currentTree ├── path-type@1.1.0
+250 silly currentTree ├── pify@2.3.0
+250 silly currentTree ├── pinkie-promise@2.0.1
+250 silly currentTree ├── pinkie@2.0.4
+250 silly currentTree ├── process-nextick-args@1.0.7
+250 silly currentTree ├── read-pkg-up@1.0.1
+250 silly currentTree ├── read-pkg@1.1.0
+250 silly currentTree ├── readable-stream@1.1.14
+250 silly currentTree ├── redent@1.0.0
+250 silly currentTree ├── repeating@2.0.1
+250 silly currentTree ├── replace-ext@0.0.1
+250 silly currentTree ├── signal-exit@3.0.1
+250 silly currentTree ├── sparkles@1.0.0
+250 silly currentTree ├── spdx-correct@1.0.2
+250 silly currentTree ├── spdx-expression-parse@1.0.4
+250 silly currentTree ├── spdx-license-ids@1.2.2
+250 silly currentTree ├── string_decoder@0.10.31
+250 silly currentTree ├── strip-ansi@3.0.1
+250 silly currentTree ├── strip-bom@2.0.0
+250 silly currentTree ├── strip-indent@1.0.1
+250 silly currentTree ├── supports-color@2.0.0
+250 silly currentTree ├─┬ through2@2.0.1
+250 silly currentTree │ ├── isarray@1.0.0
+250 silly currentTree │ └── readable-stream@2.0.6
+250 silly currentTree ├── time-stamp@1.0.1
+250 silly currentTree ├── trim-newlines@1.0.0
+250 silly currentTree ├── util-deprecate@1.0.2
+250 silly currentTree ├── validate-npm-package-license@3.0.1
+250 silly currentTree ├── vinyl@0.5.3
+250 silly currentTree ├── which@1.2.11
+250 silly currentTree └── xtend@4.0.1
+251 silly idealTree gavelweb.pro
+251 silly idealTree ├── ansi-regex@2.0.0
+251 silly idealTree ├── ansi-styles@2.2.1
+251 silly idealTree ├── array-differ@1.0.0
+251 silly idealTree ├── array-find-index@1.0.2
+251 silly idealTree ├── array-uniq@1.0.3
+251 silly idealTree ├── beeper@1.1.0
+251 silly idealTree ├── builtin-modules@1.1.1
+251 silly idealTree ├── camelcase-keys@2.1.0
+251 silly idealTree ├── camelcase@2.1.1
+251 silly idealTree ├── chalk@1.1.3
+251 silly idealTree ├── clone-stats@0.0.1
+251 silly idealTree ├── clone@1.0.2
+251 silly idealTree ├── core-util-is@1.0.2
+251 silly idealTree ├── currently-unhandled@0.4.1
+251 silly idealTree ├── dateformat@1.0.12
+251 silly idealTree ├── decamelize@1.2.0
+251 silly idealTree ├── duplexer2@0.0.2
+251 silly idealTree ├── error-ex@1.3.0
+251 silly idealTree ├── escape-string-regexp@1.0.5
+251 silly idealTree ├── fancy-log@1.2.0
+251 silly idealTree ├── find-up@1.1.2
+251 silly idealTree ├── get-stdin@4.0.1
+251 silly idealTree ├── glogg@1.0.0
+251 silly idealTree ├── graceful-fs@4.1.9
+251 silly idealTree ├── gulp-install@0.6.0
+251 silly idealTree ├── gulp-util@3.0.7
+251 silly idealTree ├── gulplog@1.0.0
+251 silly idealTree ├── has-ansi@2.0.0
+251 silly idealTree ├── has-gulplog@0.1.0
+251 silly idealTree ├── hosted-git-info@2.1.5
+251 silly idealTree ├── indent-string@2.1.0
+251 silly idealTree ├── inherits@2.0.3
+251 silly idealTree ├── is-arrayish@0.2.1
+251 silly idealTree ├── is-builtin-module@1.0.0
+251 silly idealTree ├── is-finite@1.0.2
+251 silly idealTree ├── is-utf8@0.2.1
+251 silly idealTree ├── isarray@0.0.1
+251 silly idealTree ├── isexe@1.1.2
+251 silly idealTree ├── load-json-file@1.1.0
+251 silly idealTree ├── lodash._basecopy@3.0.1
+251 silly idealTree ├── lodash._basetostring@3.0.1
+251 silly idealTree ├── lodash._basevalues@3.0.0
+251 silly idealTree ├── lodash._getnative@3.9.1
+251 silly idealTree ├── lodash._isiterateecall@3.0.9
+251 silly idealTree ├── lodash._reescape@3.0.0
+251 silly idealTree ├── lodash._reevaluate@3.0.0
+251 silly idealTree ├── lodash._reinterpolate@3.0.0
+251 silly idealTree ├── lodash._root@3.0.1
+251 silly idealTree ├── lodash.escape@3.2.0
+251 silly idealTree ├── lodash.isarguments@3.1.0
+251 silly idealTree ├── lodash.isarray@3.0.4
+251 silly idealTree ├── lodash.keys@3.1.2
+251 silly idealTree ├── lodash.restparam@3.6.1
+251 silly idealTree ├── lodash.template@3.6.2
+251 silly idealTree ├── lodash.templatesettings@3.1.1
+251 silly idealTree ├── loud-rejection@1.6.0
+251 silly idealTree ├── map-obj@1.0.1
+251 silly idealTree ├─┬ meow@3.7.0
+251 silly idealTree │ └── object-assign@4.1.0
+251 silly idealTree ├── minimist@1.2.0
+251 silly idealTree ├── multipipe@0.1.2
+251 silly idealTree ├── node@0.0.0
+251 silly idealTree ├── nodejs@0.0.0
+251 silly idealTree ├── normalize-package-data@2.3.5
+251 silly idealTree ├── number-is-nan@1.0.1
+251 silly idealTree ├── object-assign@3.0.0
+251 silly idealTree ├── parse-json@2.2.0
+251 silly idealTree ├── path-exists@2.1.0
+251 silly idealTree ├── path-type@1.1.0
+251 silly idealTree ├── pify@2.3.0
+251 silly idealTree ├── pinkie-promise@2.0.1
+251 silly idealTree ├── pinkie@2.0.4
+251 silly idealTree ├── process-nextick-args@1.0.7
+251 silly idealTree ├── read-pkg-up@1.0.1
+251 silly idealTree ├── read-pkg@1.1.0
+251 silly idealTree ├── readable-stream@1.1.14
+251 silly idealTree ├── redent@1.0.0
+251 silly idealTree ├── repeating@2.0.1
+251 silly idealTree ├── replace-ext@0.0.1
+251 silly idealTree ├── semver@5.3.0
+251 silly idealTree ├── signal-exit@3.0.1
+251 silly idealTree ├── sparkles@1.0.0
+251 silly idealTree ├── spdx-correct@1.0.2
+251 silly idealTree ├── spdx-expression-parse@1.0.4
+251 silly idealTree ├── spdx-license-ids@1.2.2
+251 silly idealTree ├── string_decoder@0.10.31
+251 silly idealTree ├── strip-ansi@3.0.1
+251 silly idealTree ├── strip-bom@2.0.0
+251 silly idealTree ├── strip-indent@1.0.1
+251 silly idealTree ├── supports-color@2.0.0
+251 silly idealTree ├─┬ through2@2.0.1
+251 silly idealTree │ ├── isarray@1.0.0
+251 silly idealTree │ └── readable-stream@2.0.6
+251 silly idealTree ├── time-stamp@1.0.1
+251 silly idealTree ├── trim-newlines@1.0.0
+251 silly idealTree ├── util-deprecate@1.0.2
+251 silly idealTree ├── validate-npm-package-license@3.0.1
+251 silly idealTree ├── vinyl@0.5.3
+251 silly idealTree ├── which@1.2.11
+251 silly idealTree └── xtend@4.0.1
+252 silly generateActionsToTake Starting
+253 silly install generateActionsToTake
+254 silly generateActionsToTake Finishing
+255 silly diffTrees action count 7
+256 silly diffTrees add object-assign@4.1.0
+257 silly diffTrees add semver@5.3.0
+258 silly diffTrees add normalize-package-data@2.3.5
+259 silly diffTrees add meow@3.7.0
+260 silly diffTrees add dateformat@1.0.12
+261 silly diffTrees add gulp-util@3.0.7
+262 silly diffTrees add gulp-install@0.6.0
+263 silly decomposeActions action count 56
+264 silly decomposeActions fetch object-assign@4.1.0
+265 silly decomposeActions extract object-assign@4.1.0
+266 silly decomposeActions test object-assign@4.1.0
+267 silly decomposeActions preinstall object-assign@4.1.0
+268 silly decomposeActions build object-assign@4.1.0
+269 silly decomposeActions install object-assign@4.1.0
+270 silly decomposeActions postinstall object-assign@4.1.0
+271 silly decomposeActions finalize object-assign@4.1.0
+272 silly decomposeActions fetch semver@5.3.0
+273 silly decomposeActions extract semver@5.3.0
+274 silly decomposeActions test semver@5.3.0
+275 silly decomposeActions preinstall semver@5.3.0
+276 silly decomposeActions build semver@5.3.0
+277 silly decomposeActions install semver@5.3.0
+278 silly decomposeActions postinstall semver@5.3.0
+279 silly decomposeActions finalize semver@5.3.0
+280 silly decomposeActions fetch normalize-package-data@2.3.5
+281 silly decomposeActions extract normalize-package-data@2.3.5
+282 silly decomposeActions test normalize-package-data@2.3.5
+283 silly decomposeActions preinstall normalize-package-data@2.3.5
+284 silly decomposeActions build normalize-package-data@2.3.5
+285 silly decomposeActions install normalize-package-data@2.3.5
+286 silly decomposeActions postinstall normalize-package-data@2.3.5
+287 silly decomposeActions finalize normalize-package-data@2.3.5
+288 silly decomposeActions fetch meow@3.7.0
+289 silly decomposeActions extract meow@3.7.0
+290 silly decomposeActions test meow@3.7.0
+291 silly decomposeActions preinstall meow@3.7.0
+292 silly decomposeActions build meow@3.7.0
+293 silly decomposeActions install meow@3.7.0
+294 silly decomposeActions postinstall meow@3.7.0
+295 silly decomposeActions finalize meow@3.7.0
+296 silly decomposeActions fetch dateformat@1.0.12
+297 silly decomposeActions extract dateformat@1.0.12
+298 silly decomposeActions test dateformat@1.0.12
+299 silly decomposeActions preinstall dateformat@1.0.12
+300 silly decomposeActions build dateformat@1.0.12
+301 silly decomposeActions install dateformat@1.0.12
+302 silly decomposeActions postinstall dateformat@1.0.12
+303 silly decomposeActions finalize dateformat@1.0.12
+304 silly decomposeActions fetch gulp-util@3.0.7
+305 silly decomposeActions extract gulp-util@3.0.7
+306 silly decomposeActions test gulp-util@3.0.7
+307 silly decomposeActions preinstall gulp-util@3.0.7
+308 silly decomposeActions build gulp-util@3.0.7
+309 silly decomposeActions install gulp-util@3.0.7
+310 silly decomposeActions postinstall gulp-util@3.0.7
+311 silly decomposeActions finalize gulp-util@3.0.7
+312 silly decomposeActions fetch gulp-install@0.6.0
+313 silly decomposeActions extract gulp-install@0.6.0
+314 silly decomposeActions test gulp-install@0.6.0
+315 silly decomposeActions preinstall gulp-install@0.6.0
+316 silly decomposeActions build gulp-install@0.6.0
+317 silly decomposeActions install gulp-install@0.6.0
+318 silly decomposeActions postinstall gulp-install@0.6.0
+319 silly decomposeActions finalize gulp-install@0.6.0
+320 silly executeActions Starting
+321 silly install executeActions
+322 silly doSerial global-install 0
+323 silly doParallel fetch 7
+324 verbose lock using /home/labrtr/.npm/_locks/staging-4befff44ff504575.lock for /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging
+325 silly doParallel extract 7
+326 silly extract object-assign@4.1.0
+327 silly extract semver@5.3.0
+328 silly extract normalize-package-data@2.3.5
+329 silly extract meow@3.7.0
+330 silly extract dateformat@1.0.12
+331 silly extract gulp-util@3.0.7
+332 silly extract gulp-install@0.6.0
+333 verbose unbuild node_modules/.staging/meow-be3028cd
+334 verbose unbuild node_modules/.staging/normalize-package-data-ca2794f1
+335 verbose unbuild node_modules/.staging/gulp-util-3ac305f5
+336 verbose unbuild node_modules/.staging/gulp-install-7e127d4e
+337 verbose unbuild node_modules/.staging/object-assign-df60f83d
+338 verbose unbuild node_modules/.staging/semver-4d0cf1a8
+339 verbose unbuild node_modules/.staging/dateformat-e01592f4
+340 silly gentlyRm /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/meow-be3028cd is being purged from base /media/labrtr/ARCH_201608/gavelweb.pro
+341 verbose gentlyRm don't care about contents; nuking /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/meow-be3028cd
+342 silly gentlyRm /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/normalize-package-data-ca2794f1 is being purged from base /media/labrtr/ARCH_201608/gavelweb.pro
+343 verbose gentlyRm don't care about contents; nuking /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/normalize-package-data-ca2794f1
+344 silly gentlyRm /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/gulp-util-3ac305f5 is being purged from base /media/labrtr/ARCH_201608/gavelweb.pro
+345 verbose gentlyRm don't care about contents; nuking /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/gulp-util-3ac305f5
+346 silly gentlyRm /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/gulp-install-7e127d4e is being purged from base /media/labrtr/ARCH_201608/gavelweb.pro
+347 verbose gentlyRm don't care about contents; nuking /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/gulp-install-7e127d4e
+348 silly gentlyRm /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/object-assign-df60f83d is being purged from base /media/labrtr/ARCH_201608/gavelweb.pro
+349 verbose gentlyRm don't care about contents; nuking /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/object-assign-df60f83d
+350 silly gentlyRm /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/semver-4d0cf1a8 is being purged from base /media/labrtr/ARCH_201608/gavelweb.pro
+351 verbose gentlyRm don't care about contents; nuking /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/semver-4d0cf1a8
+352 verbose tar unpack /home/labrtr/.npm/meow/3.7.0/package.tgz
+353 verbose tar unpacking to /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/meow-be3028cd
+354 silly gentlyRm /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/meow-be3028cd is being purged
+355 verbose gentlyRm don't care about contents; nuking /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/meow-be3028cd
+356 verbose tar unpack /home/labrtr/.npm/normalize-package-data/2.3.5/package.tgz
+357 verbose tar unpacking to /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/normalize-package-data-ca2794f1
+358 silly gentlyRm /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/normalize-package-data-ca2794f1 is being purged
+359 verbose gentlyRm don't care about contents; nuking /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/normalize-package-data-ca2794f1
+360 verbose tar unpack /home/labrtr/.npm/gulp-util/3.0.7/package.tgz
+361 verbose tar unpacking to /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/gulp-util-3ac305f5
+362 silly gentlyRm /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/gulp-util-3ac305f5 is being purged
+363 verbose gentlyRm don't care about contents; nuking /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/gulp-util-3ac305f5
+364 verbose tar unpack /home/labrtr/.npm/gulp-install/0.6.0/package.tgz
+365 verbose tar unpacking to /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/gulp-install-7e127d4e
+366 silly gentlyRm /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/gulp-install-7e127d4e is being purged
+367 verbose gentlyRm don't care about contents; nuking /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/gulp-install-7e127d4e
+368 silly gentlyRm /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/dateformat-e01592f4 is being purged from base /media/labrtr/ARCH_201608/gavelweb.pro
+369 verbose gentlyRm don't care about contents; nuking /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/dateformat-e01592f4
+370 verbose tar unpack /home/labrtr/.npm/object-assign/4.1.0/package.tgz
+371 verbose tar unpacking to /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/object-assign-df60f83d
+372 silly gentlyRm /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/object-assign-df60f83d is being purged
+373 verbose gentlyRm don't care about contents; nuking /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/object-assign-df60f83d
+374 verbose tar unpack /home/labrtr/.npm/semver/5.3.0/package.tgz
+375 verbose tar unpacking to /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/semver-4d0cf1a8
+376 silly gentlyRm /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/semver-4d0cf1a8 is being purged
+377 verbose gentlyRm don't care about contents; nuking /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/semver-4d0cf1a8
+378 silly gunzTarPerm modes [ '755', '644' ]
+379 silly gunzTarPerm modes [ '755', '644' ]
+380 silly gunzTarPerm modes [ '755', '644' ]
+381 silly gunzTarPerm modes [ '755', '644' ]
+382 verbose tar unpack /home/labrtr/.npm/dateformat/1.0.12/package.tgz
+383 verbose tar unpacking to /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/dateformat-e01592f4
+384 silly gentlyRm /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/dateformat-e01592f4 is being purged
+385 verbose gentlyRm don't care about contents; nuking /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/dateformat-e01592f4
+386 silly gunzTarPerm modes [ '755', '644' ]
+387 silly gunzTarPerm modes [ '755', '644' ]
+388 silly gunzTarPerm modes [ '755', '644' ]
+389 silly gunzTarPerm extractEntry package.json
+390 silly gunzTarPerm extractEntry package.json
+391 silly gunzTarPerm extractEntry package.json
+392 silly gunzTarPerm extractEntry package.json
+393 silly gunzTarPerm extractEntry package.json
+394 silly gunzTarPerm extractEntry package.json
+395 silly gunzTarPerm extractEntry package.json
+396 silly gunzTarPerm extractEntry index.js
+397 silly gunzTarPerm extractEntry license
+398 silly gunzTarPerm extractEntry .npmignore
+399 silly gunzTarPerm extractEntry README.md
+400 silly gunzTarPerm extractEntry README.md
+401 silly gunzTarPerm extractEntry LICENSE
+402 silly gunzTarPerm extractEntry README.md
+403 silly gunzTarPerm extractEntry LICENSE
+404 silly gunzTarPerm extractEntry README.md
+405 silly gunzTarPerm extractEntry LICENSE
+406 silly gunzTarPerm extractEntry index.js
+407 silly gunzTarPerm extractEntry license
+408 silly gunzTarPerm extractEntry .npmignore
+409 silly gunzTarPerm extractEntry LICENSE
+410 silly gunzTarPerm extractEntry index.js
+411 silly gunzTarPerm extractEntry lib/PluginError.js
+412 silly gunzTarPerm extractEntry LICENSE
+413 silly gunzTarPerm extractEntry .travis.yml
+414 silly gunzTarPerm extractEntry semver.js
+415 silly gunzTarPerm extractEntry readme.md
+416 silly gunzTarPerm extractEntry readme.md
+417 silly gunzTarPerm extractEntry index.js
+418 silly gunzTarPerm extractEntry lib/commandRunner.js
+419 silly gunzTarPerm extractEntry .travis.yml
+420 silly gunzTarPerm extractEntry Readme.md
+421 silly gunzTarPerm extractEntry lib/buffer.js
+422 silly gunzTarPerm extractEntry lib/combine.js
+423 silly gunzTarPerm extractEntry lib/env.js
+424 silly gunzTarPerm extractEntry lib/isBuffer.js
+425 silly gunzTarPerm extractEntry lib/isNull.js
+426 silly gunzTarPerm extractEntry lib/isStream.js
+427 silly gunzTarPerm extractEntry lib/log.js
+428 silly gunzTarPerm extractEntry lib/noop.js
+429 silly gunzTarPerm extractEntry lib/template.js
+430 silly gunzTarPerm extractEntry bin/semver
+431 silly gunzTarPerm extractEntry range.bnf
+432 silly gunzTarPerm extractEntry AUTHORS
+433 silly gunzTarPerm extractEntry lib/extract_description.js
+434 silly gunzTarPerm extractEntry bin/cli.js
+435 silly gunzTarPerm extractEntry lib/dateformat.js
+436 silly gunzTarPerm extractEntry lib/fixer.js
+437 silly gunzTarPerm extractEntry lib/make_warning.js
+438 silly gunzTarPerm extractEntry lib/normalize.js
+439 silly gunzTarPerm extractEntry lib/safe_format.js
+440 silly gunzTarPerm extractEntry lib/typos.json
+441 silly gunzTarPerm extractEntry lib/warning_messages.json
+442 silly gunzTarPerm extractEntry test/basic.js
+443 silly gunzTarPerm extractEntry test/dependencies.js
+444 silly gunzTarPerm extractEntry test/strict.js
+445 silly gunzTarPerm extractEntry test/github-urls.js
+446 silly gunzTarPerm extractEntry test/mixedcase-names.js
+447 silly gunzTarPerm extractEntry test/consistency.js
+448 silly gunzTarPerm extractEntry test/scripts.js
+449 silly gunzTarPerm extractEntry test/scoped.js
+450 silly gunzTarPerm extractEntry test/typo.js
+451 silly gunzTarPerm extractEntry test/normalize.js
+452 silly gunzTarPerm extractEntry test/normalize.js~
+453 silly gunzTarPerm extractEntry test/fixtures/no-description.json
+454 silly gunzTarPerm extractEntry test/fixtures/async.json
+455 silly gunzTarPerm extractEntry test/fixtures/bcrypt.json
+456 silly gunzTarPerm extractEntry test/fixtures/coffee-script.json
+457 silly gunzTarPerm extractEntry test/fixtures/http-server.json
+458 silly gunzTarPerm extractEntry test/fixtures/movefile.json
+459 silly gunzTarPerm extractEntry test/fixtures/badscripts.json
+460 silly gunzTarPerm extractEntry test/fixtures/node-module_exist.json
+461 silly gunzTarPerm extractEntry test/fixtures/npm.json
+462 silly gunzTarPerm extractEntry test/fixtures/read-package-json.json
+463 silly gunzTarPerm extractEntry test/fixtures/request.json
+464 silly gunzTarPerm extractEntry test/fixtures/underscore.json
+465 silly gunzTarPerm extractEntry test/test_dayofweek.js
+466 silly gunzTarPerm extractEntry test/test_formats.js
+467 silly gunzTarPerm extractEntry test/test_isoutcdatetime.js
+468 silly gunzTarPerm extractEntry test/weekofyear/test_weekofyear.js
+469 silly gunzTarPerm extractEntry test/weekofyear/test_weekofyear.sh
+470 silly gentlyRm /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/semver-4d0cf1a8/node_modules is being purged
+471 verbose gentlyRm don't care about contents; nuking /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/semver-4d0cf1a8/node_modules
+472 silly gentlyRm /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/meow-be3028cd/node_modules is being purged
+473 verbose gentlyRm don't care about contents; nuking /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/meow-be3028cd/node_modules
+474 silly gentlyRm /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/gulp-install-7e127d4e/node_modules is being purged
+475 verbose gentlyRm don't care about contents; nuking /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/gulp-install-7e127d4e/node_modules
+476 silly gentlyRm /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/object-assign-df60f83d/node_modules is being purged
+477 verbose gentlyRm don't care about contents; nuking /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/object-assign-df60f83d/node_modules
+478 silly gentlyRm /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/dateformat-e01592f4/node_modules is being purged
+479 verbose gentlyRm don't care about contents; nuking /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/dateformat-e01592f4/node_modules
+480 silly gentlyRm /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/gulp-util-3ac305f5/node_modules is being purged
+481 verbose gentlyRm don't care about contents; nuking /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/gulp-util-3ac305f5/node_modules
+482 silly gentlyRm /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/normalize-package-data-ca2794f1/node_modules is being purged
+483 verbose gentlyRm don't care about contents; nuking /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/normalize-package-data-ca2794f1/node_modules
+484 silly doParallel preinstall 7
+485 silly preinstall object-assign@4.1.0 /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/object-assign-df60f83d
+486 info lifecycle object-assign@4.1.0~preinstall: object-assign@4.1.0
+487 silly preinstall semver@5.3.0 /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/semver-4d0cf1a8
+488 info lifecycle semver@5.3.0~preinstall: semver@5.3.0
+489 silly preinstall normalize-package-data@2.3.5 /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/normalize-package-data-ca2794f1
+490 info lifecycle normalize-package-data@2.3.5~preinstall: normalize-package-data@2.3.5
+491 silly preinstall meow@3.7.0 /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/meow-be3028cd
+492 info lifecycle meow@3.7.0~preinstall: meow@3.7.0
+493 silly preinstall dateformat@1.0.12 /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/dateformat-e01592f4
+494 info lifecycle dateformat@1.0.12~preinstall: dateformat@1.0.12
+495 silly preinstall gulp-util@3.0.7 /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/gulp-util-3ac305f5
+496 info lifecycle gulp-util@3.0.7~preinstall: gulp-util@3.0.7
+497 silly preinstall gulp-install@0.6.0 /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging/gulp-install-7e127d4e
+498 info lifecycle gulp-install@0.6.0~preinstall: gulp-install@0.6.0
+499 silly lifecycle object-assign@4.1.0~preinstall: no script for preinstall, continuing
+500 silly lifecycle semver@5.3.0~preinstall: no script for preinstall, continuing
+501 silly lifecycle normalize-package-data@2.3.5~preinstall: no script for preinstall, continuing
+502 silly lifecycle meow@3.7.0~preinstall: no script for preinstall, continuing
+503 silly lifecycle dateformat@1.0.12~preinstall: no script for preinstall, continuing
+504 silly lifecycle gulp-util@3.0.7~preinstall: no script for preinstall, continuing
+505 silly lifecycle gulp-install@0.6.0~preinstall: no script for preinstall, continuing
+506 silly doReverseSerial remove 0
+507 silly doSerial move 0
+508 silly doSerial finalize 7
+509 silly finalize /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/meow/node_modules/object-assign
+510 silly finalize /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/semver
+511 silly finalize /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/normalize-package-data
+512 silly finalize /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/meow
+513 silly finalize /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/dateformat
+514 silly finalize /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/gulp-util
+515 silly finalize /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/gulp-install
+516 silly doSerial build 7
+517 silly build object-assign@4.1.0
+518 info linkStuff object-assign@4.1.0
+519 silly linkStuff object-assign@4.1.0 has /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/meow/node_modules as its parent node_modules
+520 verbose linkBins object-assign@4.1.0
+521 verbose linkMans object-assign@4.1.0
+522 silly build semver@5.3.0
+523 info linkStuff semver@5.3.0
+524 silly linkStuff semver@5.3.0 has /media/labrtr/ARCH_201608/gavelweb.pro/node_modules as its parent node_modules
+525 verbose linkBins semver@5.3.0
+526 verbose link bins [ { semver: './bin/semver' },
+526 verbose link bins   '/media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.bin',
+526 verbose link bins   false ]
+527 verbose linkMans semver@5.3.0
+528 silly gentlyRm /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.bin/semver is being purged
+529 verbose gentlyRm don't care about contents; nuking /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.bin/semver
+530 verbose unlock done using /home/labrtr/.npm/_locks/staging-4befff44ff504575.lock for /media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.staging
+531 silly rollbackFailedOptional Starting
+532 silly rollbackFailedOptional Finishing
+533 silly runTopLevelLifecycles Starting
+534 silly runTopLevelLifecycles Finishing
+535 silly install printInstalled
+536 warn enoent ENOENT: no such file or directory, open '/media/labrtr/ARCH_201608/gavelweb.pro/package.json'
+537 warn gavelweb.pro No description
+538 warn gavelweb.pro No repository field.
+539 warn gavelweb.pro No README data
+540 warn gavelweb.pro No license field.
+541 verbose stack Error: EPERM: operation not permitted, symlink '../semver/bin/semver' -> '/media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.bin/semver'
+541 verbose stack     at Error (native)
+542 verbose cwd /media/labrtr/ARCH_201608/gavelweb.pro
+543 error Linux 4.4.0-21-generic
+544 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "--save-dev" "gulp-install"
+545 error node v4.2.6
+546 error npm  v3.5.2
+547 error path ../semver/bin/semver
+548 error code EPERM
+549 error errno -1
+550 error syscall symlink
+551 error Error: EPERM: operation not permitted, symlink '../semver/bin/semver' -> '/media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.bin/semver'
+551 error     at Error (native)
+551 error  { [Error: EPERM: operation not permitted, symlink '../semver/bin/semver' -> '/media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.bin/semver']
+551 error   errno: -1,
+551 error   code: 'EPERM',
+551 error   syscall: 'symlink',
+551 error   path: '../semver/bin/semver',
+551 error   dest: '/media/labrtr/ARCH_201608/gavelweb.pro/node_modules/.bin/semver' }
+552 error Please try running this command again as root/Administrator.
+553 verbose exit [ -1, true ]

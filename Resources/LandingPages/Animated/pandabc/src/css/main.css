@@ -1,0 +1,124 @@
+body {
+  background-color: #fffafa; }
+  body .transparent {
+    background: rgba(0, 0, 0, 0.4);
+    font-family: 'Baloo Bhaina', cursive; }
+    body .transparent .navbox {
+      float: right;
+      text-align: right;
+      width: 100%; }
+    body .transparent .navbar-nav {
+      float: right; }
+  body .mblue {
+    background-color: #fffafa; }
+  body .red {
+    background-color: red; }
+  body h1, body h2, body h3 {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
+  body h1 {
+    font-family: 'Rubik Mono One', sans-serif;
+    padding-top: 50%;
+    font-size: 5rem;
+    text-align: center;
+    color: #f90; }
+  body h2 {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: #f90; }
+  body h3 {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 0.8rem;
+    text-align: left;
+    color: white; }
+  body .redtext {
+    font-size: 1.8rem;
+    color: red; }
+  body .menucol {
+    padding: 20px !important; }
+  body a {
+    color: #0C121E; }
+  body li.nav-item:hover {
+    background-color: #f90; }
+  body nav a img {
+    height: 50px;
+    width: 50px; }
+  body header {
+    overflow: hidden;
+    height: 800px;
+    width: 100%;
+    font-family: 'Baloo Bhaina', cursive;
+    background-color: #100F15;
+    background-image: url("/img/cover.jpg");
+    background-repeat: repeat-x;
+    background-position: center;
+    -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+    clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0); }
+  body section.projects {
+    padding-top: 50px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 1rem;
+    color: #B51A1D;
+    height: 600px;
+    width: 100%;
+    overflow: hidden; }
+    body section.projects .text {
+      font-family: 'Rubik Mono One', sans-serif;
+      font-size: 0.8rem; }
+  body .icons {
+    display: inline-block;
+    font-size: 20px;
+    height: 20px;
+    width: 20px; }
+  body .tw {
+    background-size: contain;
+    background-image: url("/img/twitter-icon.png"); }
+  body .fb {
+    background-size: contain;
+    background-image: url("/img/facebook-icon.png"); }
+  body .gg {
+    background-size: contain;
+    background-image: url("/img/googleplus-icon.png"); }
+  body .pi {
+    background-size: contain;
+    background-image: url("/img/pinterest-icon.png"); }
+  body .in {
+    background-size: contain;
+    background-image: url("/img/instagram-icon.png"); }
+  body .yo {
+    background-size: contain;
+    background-image: url("/img/youtube-icon.png"); }
+  body .li {
+    background-size: contain;
+    background-image: url("/img/linkedin-icon.png"); }
+  body .col {
+    align-items: center;
+    text-align: center;
+    border-radius: 1%;
+    border: 2px solid white; }
+  body img.avatar {
+    float: left;
+    border-radius: 1%;
+    border: 2px solid white; }
+  body .menuitemselect {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 180px; }
+  body button {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 180px; }
+  body section.team {
+    background-color: #B51A1D;
+    padding-top: 30px;
+    padding-left: 5%;
+    overflow: hidden;
+    height: auto;
+    width: 100%; }
+    body section.team p {
+      padding: 0 30px 60px 0;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 14px; }
+  body section.contacts {
+    padding: 10%;
+    color: #B51A1D; }
